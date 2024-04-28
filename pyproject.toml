@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projeto-api"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme de Souza Melo <guilherme.melo10@yahoo.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+SQLAlchemy = "^2.0.29"
+pydantic = "^2.7.1"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+pydantic-settings = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
